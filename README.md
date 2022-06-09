@@ -1,6 +1,7 @@
 # Ejercicios de Javascript
 ## Ejercicios de práctica de Javascript
 
+Ver en live page los ejercicios desde aquí: https://j0rgel0.github.io/Generation-EjerciciosJavascript/
 
 ## Ejercicio #1
 Escribir una función que tome un arreglo de números y devuelva el número mayor de la lista. 
