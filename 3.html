@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <title>Ejercicio 3</title>
+  </head>
+  <body>
+
+      <h1 class="display-4 m-3"><strong>Javascript</strong> - Ejercicio 3</h1>
+      <p class="m-3"><strong>INSTRUCCIONES:</strong> Escribir una función que permita saber si un número se repite dentro de un arreglo.</p>
+
+        <p class="m-3"><strong>Casos de prueba:</strong><br/>
+        
+        <strong>Caso 1:</strong> Resultado esperado: El número 5 se encuentra más de una vez </br>[1, 22, 5, 17, 10, 5, 40, 5]</br>
+        
+        <strong>Caso 2:</strong> Resultado esperado: El número 7 se encuentra más de una vez </br>[7, 41, 5, 7, 10, 13, 2]</br>
+        
+        <strong>Caso 3:</strong> Resultado esperado: No hay números repetidos </br>[1, 22, 5, 14, 24, 31, 27, 15, 105]</p>
+
+        
+      <div class="row p-3"><!-- div principal --> 
+
+        <div class="col-sm mb-3"> <!-- primer contenedor -->
+          <div class="card border-secondary p-3 shadow-lg bg-white rounde">
+            <div>
+              <h5 class="card-title">Entrada de números al arreglo.</h5>
+
+              <form id="formEjecutar">
+                <div class="form-group ">
+                  <input type="text" class="form-control" id="numeroInput" placeholder="Escribe los números a guardar en el arreglo" name="val01"/>
+                  
+                </div>
+                <span id="HTMLError" class="card-text text-danger font-weight-bold"></span>
+
+                </div>
+
+                <button type="submit" id="botonEjecutar" class="btn btn-primary mt-3">Añadir al arreglo</button>
+
+                <button type="submit" id="botonPop" class="btn btn-primary mt-3">Borrar último registro</button>
+              </form>
+            </div>
+          </div> <!-- primer contenedor -->
+
+          <div class="col-sm"> <!-- segundo contenedor -->
+            <div class="card border-secondary p-3 shadow-lg bg-white rounde">
+
+                <div>
+                    <h5 class="card-title">Números añadidos al arreglo.</h5>
+                    <span id="numerosArray" class="mt-0"></span>
+      
+                    <h5 class="card-title mt-3">Número de datos añadidos(s) en el arreglo.</h5>
+                      <span id="numAnadidos"></span>
+                  </div>
+
+            </div>
+
+            </div>
+          </div> <!-- segundo contenedor -->
+
+          <div class="col-sm"> <!-- tercer contenedor -->
+            <div class="card border-secondary p-3 shadow-lg badge-success rounde">
+
+                <div class="text-center">
+                    <h5 class="card-title">Número repetido del arreglo.</h5>
+                    <span id="HTMLnumRepetidos" class="mt-0"></span>
+                </div>
+
+            </div>
+          </div> <!-- tercer contenedor -->
+
+        </div> <!-- div principal --> 
+      
+
+
+    <div class="text-center">
+      <a href="../index.html" class="btn btn-success mt-3 mb-3" role="button"
+        >Regresar</a
+      >
+    </div>
+
+    <footer>
+      <div class="footer-copyright text-center alert alert-dark">
+        Jorge Francisco López Valdez - jorge.lopezvz@udlap.mx
+      </div>
+    </footer>
+
+    <script src="./js/3.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
