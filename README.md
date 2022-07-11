@@ -1,4 +1,4 @@
-# Ejercicios de Javascript
+![Image](https://i.ibb.co/gSGkRnr/Dise-o-sin-t-tulo.png)
 ## Ejercicios de práctica de Javascript
 
 Ver en live page los ejercicios desde aquí: https://j0rgel0.github.io/Generation-EjerciciosJavascript/
